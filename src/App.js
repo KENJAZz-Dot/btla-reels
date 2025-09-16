@@ -72,7 +72,7 @@ const App = () => {
     if (video) {
       if (!_veryFirsPageTitle.includes("[VIDEO_TITLE]")) document.title = _veryFirsPageTitle;
       else document.title = _veryFirsPageTitle.replace("[VIDEO_TITLE]", video.title);
-    } else if (window.USE_SECRET) document.title = "Erin - Authentication";
+    } else if (window.USE_SECRET) document.title = "BTLA REELS - Authentication";
   };
   const _injectCustomStylesheet = () => {
     const node = document.createElement("link");
