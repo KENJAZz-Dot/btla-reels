@@ -648,7 +648,7 @@ const App = () => {
                     <div className="icon-wrapper">
                       <img src={`/logo.png`} alt="Erin logo" />
                     </div>
-                    <h1>Welcome to Erin</h1>
+                    <h1>BTLA Reels</h1>
                     <p>Let's connect and watch a few clips</p>
                     <form onSubmit={attemptToReachRemoteServer}>
                       <label htmlFor="password">Your password</label>
